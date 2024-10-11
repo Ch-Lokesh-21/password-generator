@@ -1,9 +1,12 @@
 {
+  "homepage": "https://Ch-Lokesh-21.github.io/password-generator/",
   "name": "password-generator",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
