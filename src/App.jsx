@@ -43,7 +43,7 @@ function App() {
             Copy
           </button>
         </div>
-        <div className="inp-box w-full flex items-center justify-center gap-4">
+        <div className="inp-box w-full flex items-center justify-center flex-col gap-4">
           <div className="flex items-center">
             <input
               type="range"
